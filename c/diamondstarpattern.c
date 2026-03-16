@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main(){
+    int n;
+    printf("enter the value of n=");
+    scanf("%d",&n);
+    int nsp=n/2;
+    int nst =1;
+    int ml =(n+1)/2;
+    for(int i=1;i<=n;i++){
+     for(int j=1;j<=nsp;j++){  // spaces ke liye loop 
+        printf(" ");
+     }
+     for(int k=1;k<=nst;k++){  //number traingle
+      printf("*");
+    }
+    if (i<ml){
+        nsp--;
+        nst+=2;
+    }
+    else {
+        nsp++;
+        nst-=2;
+     }
+     printf("\n");
+    }
+}
