@@ -19,5 +19,6 @@ int main(){
     else {
     cout<<"the given number is composite\n";
     }
+    cout << endl;
    
 }
