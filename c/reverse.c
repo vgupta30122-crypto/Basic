@@ -16,3 +16,6 @@ int main() {
     printf("The sum of the number=%d",sum);
     return 0;
 }
+// enter the number :23
+// The reversed number=32
+// The sum of the number=55
